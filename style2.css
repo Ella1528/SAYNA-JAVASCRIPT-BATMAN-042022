@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+:root{
+    --blanc:#ffffff;
+    --rouge:#B11313;
+    --bleu:#114C92;
+    --jaune:#ffff00;
+    --noir:#000000;
+ 
+}
+.contenu1{
+    background-image: url(./Assets/Illustrations/Game/Batgame1.png);
+   
+}
+.navigation{
+    height: 850px;
+    width: 90%;
+    z-index: 1;
+    display: block;
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
+    margin: auto;
+    
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+    height: 132px;
+    width: 100%;
+    border-bottom:2px solid #BCBBBD ;
+    margin: auto;
+}
+    .premier{
+        display: flex;
+        padding-left: 40px;
+    }
+    .premier:hover{
+        background-color: var(--jaune) ;
+        
+    }
+    .troisieme{
+        display: flex;
+        font-size: small;
+       font-weight: 300;
+    }
+    .troisieme li:hover{
+        text-decoration: underline !important;
+        font-weight: 800;
+    }
+.part1{
+    height: auto;
+    width: 90%;
+    align-items: center ;
+    text-align: center ;
+    justify-content: center ;
+    margin-top: 150px;
+    display: flex;
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
+    border: 0;
+    margin: auto;
+}
+
+.division1 h1{
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-top: 160px;
+    text-align:left;
+    align-items:left ;
+    justify-content: left;
+    padding-left: 60px;
+}
+.division2{
+    position: fixed !important;
+    top: 30%;
+    right: 4.2%;
+}
+.division2 img{
+    justify-content: end;
+    text-align: end;
+    padding-left: 20px;
+}
+.division2 i{
+   justify-content: end;
+   text-align: end;
+   padding-left: 62px;
+   margin-top: 5px;
+}
+
+ .fleche{
+     color: #FFFFFF;
+     width: 8%;
+     height: 40px;
+     align-items: center ;
+    text-align: center ;
+    justify-content: center ;
+    margin-left: 500px;
+    margin-top: 300px;
+ }
+
+.contenu2{
+    background-color: #000000;
+}
+.part2{
+    height: auto;
+    width: 90%;
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
+    margin: auto;
+    display: block;
+}
+.cadre{
+    background-color: #C4C4C4;
+    width: 70%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 60px;
+    
+}
+h5{
+    margin-left: 60px; 
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+h3{
+    color: #FFFFFF;  
+    margin-left: 60px;
+    margin-top: 150px;
+}
+p{
+    color: #FFFFFF;
+    padding-top: 8px;
+}
+.cadre i{
+    margin-right: 15px;
+    margin-left: 
+    5px;
+}
+.contenu3{
+    background-color: #000000;
+}
+.part3{
+    height: auto;
+    width: 90%;
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
+    margin: auto;
+    display: block;
+}
+.part3 img {
+    width: 75%;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.part3 h3{
+    margin-top: 150px;
+}
+.bouton{
+    margin-left: 450px;
+    margin-bottom: 40px;
+}
+.bouton1{
+    color: #FFFFFF;
+    text-align: center;
+    position: center;
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin: 0 auto;
+    font-weight: 400;
+    background-image: linear-gradient(#C4C4C4, var(--rouge));
+    opacity: 20%;
+}
+.bouton1:hover{
+    background-image: linear-gradient(#C4C4C4, var(--rouge));
+    opacity: 100%;
+}
+.footer2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    background-color: #000000;
+    width: 100%;
+    height: 250px;
+}
+.prime p{
+    font-size: 8px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+.prime1 img{
+    margin-right: 10px;
+    color: #FFFFFF !important;
+}
+.prime1 img :hover{
+    color: var(--jaune) !important  ;
+}
+i{
+    margin-right: 10px; 
+}
+i:hover{
+    color: var(--jaune) !important;
+}
+
+
+
+.zoom{
+    animation-name: agrandir;
+    animation-duration: 12s;
+}
+
+@keyframes agrandir {
+    0%{
+        transform: scale(0.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.changement{
+    animation-name: change;
+    animation-duration: 7s;
+}
+@keyframes change {
+        0%{
+            transform: translate(-50px);
+            opacity:0%
+        }
+        50%{
+            transform: translate(0px);
+            opacity: 100%;
+        }
+}
+.changement1{
+    animation-name: change1;
+    animation-duration: 7s;
+}
+@keyframes change1 {
+        0%{
+            transform: translate(-50px);
+            opacity:0%
+        }
+        50%{
+            transform: translate(0px);
+            opacity: 100%;
+        }
+}

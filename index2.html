@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!--Lien pour avoir l'icone-->
+   <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script> 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">  
+   
+   <link rel="stylesheet" href="style2.css">
+   <link rel="stylesheet" href="bootstrap.rtl.min.css">
+   <link rel="stylesheet" href="bootstrap-reboot.min.css">
+<!--Lien pour le javascript-->
+    <script defer src="game.js"></script>
+</head>
+<body>
+    <!--on va emglober tous les elements du header et de la partie un dans le contenu un
+    ici on va mettre en place des bordures en deux temps pour ce faire on va utiliser deux classes -->
+    <div class="container-fluid contenu1">
+        <div class="navigation">
+            <div class="container-fluid header  text-align-center p">
+                <div class="col navbar pt-4">
+                    <div class=" col-3 col-md-3 premier d-md-flex text-align-center pe-3">
+                        <img  class="img-fluid" src="../Evaluation final/Assets/Logos/logohome.png" height="50px" width="40%" >       
+                   </div>       
+                   <div class=" col-md-6 deuxieme d-none d-md-block " ></div> 
+                   <div class=" col-4 col-md-3 troisieme ">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item ">
+                        <a class="nav-link text-white text-white d-md-inline block d-none" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item ">
+                        <a class="nav-link text-white d-md-inline block d-none" href="index2.html">GAME</a>
+                        </li>
+                </ul>
+                   </div>  
+                </div>
+            </div>
+             <!--c`est la première    partie du site
+            dans cette partie on va faire des animations pour les textes et les boutons  -->
+            <div class="row partie1 d-md-flex " >
+                <div class="col-md-11 division1 "  >
+                    <h1 id="anime" ><br>LET’S PLAY A</br>LITTLE GAME...</h1>
+                    <img  class="fleche" src="../Evaluation final/Assets/Logos/flèche_down_header.png" height="50px" width="40%" >
+                </div>
+                <div class="col-md-1 division2 d-md-block justify-content-end">
+                    <img src="../Evaluation final/Assets/Logos/logo_bat_flèche.png" alt="">
+                    <i class="bi bi-facebook text-white"></i>
+                    <i class="bi bi-instagram text-white"></i>
+                    <i class="bi bi-twitter text-white"></i>
+                    <img src="../Evaluation final/Assets/Logos/logo_bat_flèche_2.png" alt="">
+                </div>  
+            </div>
+        </div>
+    </div> 
+     <!--c`est la deuxieme    partie du site
+            dans cette partie on va faire le quiz on met on en plave une sorte de questionnaire   -->
+    <div class="container-fluid contenu2">
+        <div class="part2">
+            <div class="row partie2">
+                <!--c`est la phase un  du quiz 
+                on presente les questions  ils sont encadrer dans ce seul div  -->
+                <div class="col-md-6 division1">
+                    <h3 class="challenge" >QUIZ NIVEAU 1: commençons gentiment</h3>
+                    <h5>Quel est l’autre nom de l’Homme-Mystère ?</h5>
+                    <div class="   cadre">
+                        <p><i class="bi bi-square-fill text-white"></i> Le Sphinx </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Saphir</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Le Joker </p>
+                    </div>
+
+                    <h5>Quelle est l’ancienne profession de Harley Quinn ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Infirmière</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Psychiatre</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Dentiste</p>
+                    </div>
+
+                    <h5>Quel est l’objet fétiche de Double Face ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Une pièce </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Un livre </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Un couteau</p>
+                    </div>
+                    <h5>Quelle ville Batman défend-il ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Gotham City </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Starling City </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Hell’s Kitchen </p>
+                    </div>
+                    <h5>Tim Burtin a réalisé deux Batman, qui jouait Batman ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Georges Clooney </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Val Kilmer </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Mickael Keaton </p>
+                    </div>
+                    <h5>Dans son premier Batman (1989) Jack Nicholson jouait :</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Le Pingouin </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>L’Homme Mystère </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Le joker</p>
+                    </div>
+                    <h5>Quel est le prénom des parents du jeune Bruce Wayne ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Thomas et Martha </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Elaine et Georges</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Martha et James </p>
+                    </div>
+                    <h5>Qui interprète le Joker en 2008 ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Heath Legder </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Haeth Ledger </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Heath Ledger </p>
+                    </div>
+                    <h5>En quelle année Robin fait il sa première apparition ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>1940</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>1936</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>1941 </p>
+                    </div>
+                    <h5>Qui est la fille de Batman et Catwoman (Earth - 2) ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Oracle</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Huntres</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Black Canary </p>
+                    </div>
+                    <h5>Qui est Jonathan Crane ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>L’Épouvantail</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Le Joker</p>
+                        
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Hugo Strange</p>
+                    </div>
+                    <h5>Batman c’est aussi le nom d’une ville en...</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Turquie </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Islande</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Allemagne </p>
+                    </div>
+                    <h5>Qui a produit Batman en 1964 ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Stanley Kubrick </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Andy Warhol </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Peter Jackson </p>
+                    </div>
+                    <h5>Quel vilain apparaît pour la première fois dans le Batman 232 ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Le Pingouin</p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Ra’s al Ghul </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Poison Ivy </p>
+                    </div>
+                    <h5>Qui est l’interprète de Catwoman dans le nouveau Batman de Matt Reeves (2022) ?</h5>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Emma Watson - </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Gigi Hadid </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Lola Iolani Momoa </p>
+                    </div>
+                    <div class="cadre">
+                        <p><i class="bi bi-square-fill text-white"></i>Zoë Kravitz</p>
+                    </div>
+                </div>
+                <div class="col-md-6 division2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid contenu3">
+        <div class="part3">
+        <div class="row partie3">
+            <h3 class="challenge"  >QUIZ NIVEAU 2: connaissez-vous bien le chevalier noir ? </h3>
+            <div class="zoom">
+                <img src="../Evaluation final/Assets/Illustrations/Game/Batgame2.png" alt="">
+            </div>  
+            <div class=" bouton ">
+                <form>
+                    <input class="bouton1" type="submit" value=" DEMARRER LE QUIZ  ">
+                </form>
+            </div>
+        </div>
+        </div>
+    </div> 
+    <div class="footer2">
+        <div class="col prime">
+            <p> <img  src="../Evaluation final/Assets/Logos/icon_WB.png" alt="" >
+                 Ce projet respecte l`univers cinematographique  des films Batman recents Version nouveau et ancien</p>
+        </div>
+        <div class="col prime1">
+            <img src="../Evaluation final/Assets/Logos/logo_sayna_white.png" alt="">
+            <img src="../Evaluation final/Assets/Logos/icon_x.png" alt="">
+            <img src="../Evaluation final/Assets/Logos/icon_DC.png" alt="">
+            <i class="bi bi-facebook text-white"></i>
+            <i class="bi bi-instagram text-white "></i>
+            <i class="bi bi-twitter text-white"></i>
+       
+            
+        </div>
+  
+    </div>
+</body>
+</html>

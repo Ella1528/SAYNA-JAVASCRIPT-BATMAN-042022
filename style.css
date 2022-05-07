@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+:root{
+    --blanc:#ffffff;
+    --rouge:#B11313;
+    --bleu:#19587D;
+    --jaune:#ffff00;
+    --noir:#000000;
+    --gris:#C4C4C4;
+ 
+}
+.contenu1{
+    background-image:url(./Assets/Illustrations/Home/Bathome1.png);
+   
+}
+.navigation{
+    height: 850px;
+    width: 90%;
+    z-index: 1;
+    display: block;
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
+    margin: auto;
+    
+}
+
+/* essai */
+.border-page{
+    border: 0;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    width: 90%;
+    margin: auto;
+}
+/* essai */
+.navbar{
+    display: flex;
+    text-align: center;
+    height: 132px;
+    width: 100%;
+    border-bottom:2px solid #BCBBBD ;
+    margin: auto;
+}
+    .premier{
+        display: flex;
+        padding-left: 40px;
+    }
+    .premier:hover{
+        background-color: var(--jaune) ;
+        
+    }
+    .troisieme{
+        display: flex;
+        font-size: small;
+       font-weight: 300;
+    }
+    .troisieme li:hover{
+        text-decoration: underline !important;
+        font-weight: 800;
+    }
+.part1{
+    height: auto;
+    width: 90%;
+    align-items: center ;
+    text-align: center ;
+    justify-content: center ;
+    margin-top: 150px;
+    display: flex;
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
+    border: 0;
+    margin: auto;
+}
+.part1 p{
+    width: 70%;
+    color: #FFFFFF;
+    padding-top: 200px;
+    align-items: center !important ;
+    text-align: center !important ;
+    justify-content: center !important;
+    padding-left: 300px;
+    font-size: small;
+}
+.part1 h5{
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.bouton{
+    display: flex;
+    margin-top: 15px;
+    align-items: center ;
+    text-align: center ;
+    justify-content: center ;
+}
+.bouton1{
+    background-color:#ffffff65 ;
+    opacity: 40%;
+    color:#FFFFFF ;
+    font-size: small;
+    text-align: center;
+    position: center;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin: 0 auto;
+    font-weight: 400;
+    margin-right: 50px;
+    
+ }
+ .bouton1:hover{
+    background-color: #ffffff65;
+    opacity: 100%;
+}
+ .bouton2{
+    background-color:#ffffff65;
+    opacity: 40%;
+    color:#FFFFFF ;
+    font-size: small;
+    text-align: center;
+    position: center;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin: 0 auto;
+    font-weight: 400;
+ }
+ .bouton2:hover{
+    background-color: #ffffff65;
+    opacity: 100%;
+}
+ .fleche{
+     color: #FFFFFF;
+     width: 8%;
+     height: 40px;
+     align-items: center ;
+    text-align: center ;
+    justify-content: center ;
+    margin-left: 0px;
+    margin-top: 250px;
+ }
+ .division2{
+    
+        position: fixed !important;
+        top: 30%;
+        right: 8%;
+    
+ }
+ .division2 img{
+     justify-content: end;
+     text-align: end;
+     padding-left: 68px;
+ }
+ .division2 i{
+    justify-content: end;
+    text-align: end;
+    padding-left: 110px;
+    margin-top: 5px;
+}
+ .contenu2{
+    background-color: black !important;
+ }
+
+/*  */
+.fond-noir{
+    background-color:black
+}
+/*  */
+ .part2{
+    
+     width: 90%;
+     height: 720px;
+    padding-top: 80px;
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
+    margin: auto;
+    padding-left: 40px;
+ 
+}
+.part2 h3{
+    font-weight: 500;
+    color: #FFFFFF;
+    opacity: 100%;
+    padding-left: 40px;
+}
+.part2 p{
+    font-weight: 100;
+    color: #FFFFFF;
+    opacity: 100%;
+    padding-left: 40px;
+    align-items: center;
+    width: 79%;
+    text-align: justify;
+    margin-bottom: 40px;
+
+}
+    .photos img{
+        margin-top: 20px;
+        margin-left:30px;
+        margin-right: 20px;
+    }
+
+.contenu3{
+    /* background-image: url(./Assets/Illustrations/Home/Batslider1.png); */
+    animation-name: lesImagesBatmans;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  */
+@keyframes lesImagesBatmans {
+    0%{
+        background-image: url(Assets/Illustrations/Home/Batslider1.png);
+    }
+    10%{
+        background-image: url(Assets/Illustrations/Home/Batslider2.png);
+    }
+    20%{
+        background-image: url(Assets/Illustrations/Home/Batslider3.png);
+    }
+    30%{
+        background-image: url(Assets/Illustrations/Home/Batslider4.png);
+    }
+    40%{
+        background-image: url(Assets/Illustrations/Home/Batslider5.png);
+    }
+    50%{
+        background-image: url(Assets/Illustrations/Home/Batslider6.png);
+    }
+    60%{
+        background-image: url(Assets/Illustrations/Home/Batslider7.png);
+    }
+    70%{
+        background-image: url(Assets/Illustrations/Home/Batslider8.png);
+    }
+    80%{
+        background-image: url(Assets/Illustrations/Home/Batslider9.png);
+    }
+    100%{
+        background-image: url(Assets/Illustrations/Home/Batslider10.png);
+    }
+}
+
+/*  */
+.part3{
+    width: 90%;
+    height: 350px;
+    background-color: transparent;
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
+    margin: auto;
+}
+.part4{
+    padding-left: 40px;
+    width: 90%;
+    height: 750px;
+   padding-top: 80px;
+   border-left: 2px solid #BCBBBD;
+   border-right: 2px solid #BCBBBD;
+   margin: auto;
+
+}
+.part4 h3{
+   font-weight: 500;
+   color: #FFFFFF;
+   opacity: 100%;
+   padding-left: 40px;
+}
+.part4 p{
+   font-weight: 100;
+   color: #FFFFFF;
+   opacity: 100%;
+   padding-left: 40px;
+   align-items: center;
+   width: 79%;
+   text-align: justify;
+   margin-bottom: 40px;
+
+}
+.part5{
+    padding-left: 40px;
+    width: 90%;
+    height:auto;
+    border-left: 2px solid #BCBBBD;
+   border-right: 2px solid #BCBBBD;
+   margin: auto;
+
+}
+.part5 h3{
+    font-weight: 500;
+    color: #FFFFFF;
+    opacity: 100%;
+    padding-left: 40px;
+ } 
+.un img{
+    height: 40px;
+    width: 30%;
+    
+} 
+.un img{
+    height: 40px;
+    width: 30%;
+    padding-left: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} 
+.trois img{
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+} 
+.trois{
+padding-left: 100px;
+}
+p{
+    font-size: small;
+    color: #FFFFFF;
+
+}
+.surplus{
+    background-image: linear-gradient(#C4C4C4, #19587D);
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 200px;
+    width: 60%;
+}
+h6{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+h5{
+    color: #FFFFFF;
+    font-weight: 100;
+}
+.part6{
+    width: 90%;
+    height: 550px;
+   padding-top: 50px;
+   border-left: 2px solid #BCBBBD;
+   border-right: 2px solid #BCBBBD;
+   margin: auto;
+
+}
+.video{
+    padding-left: 80px;
+}
+.fond-noir1{
+        background-image: linear-gradient(#C4C4C4, #19587D);
+        opacity: 60%;
+
+}
+.part7{
+    width: 90%;
+    height: 620px;
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
+    margin: auto;
+
+}
+.part7 h3{
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 100%;
+    padding-top: 40px;
+}
+.part7 h6{
+    padding-left: 200px;
+}
+.email {
+    margin-top: 60px;
+}
+
+.recu{
+    background-image: linear-gradient(#C4C4C4, #19587D) !important;
+    position: absolute;
+    height: 60vh;
+    width: 80%;
+}
+
+.recu h1{
+    color: var(--blanc);
+    padding-top: 80px;
+}
+.part7 p{
+   width: 60%;
+    color: #FFFFFF;
+    opacity: 60%;
+    border-bottom: 2px solid #FFFFFF  ;
+    margin-left: 200px;
+}
+.newsletter {
+    margin-top: 30px;
+}
+.newsletter img{
+    margin-left: 200px;
+    width: 3%;
+    height: 20px;
+    color: #BCBBBD;
+}
+.newsletter1 {
+    margin-top: 20px;
+}
+.message {
+    margin-top: 30px; 
+}
+.choix{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bouton3{
+    margin: 10px;
+    color: #FFFFFF;
+   background-color: transparent;
+   border-top: 1px solid #BCBBBD ;
+   border-left:1px solid #BCBBBD  ;
+   border-bottom: 1px solid #BCBBBD ;
+   border-right:1px solid #317fc7;
+   width: 100px;
+   height: 30px;
+   font-size: small;
+
+}
+.bouton3:hover{
+    background-image: linear-gradient(#C4C4C4, #19587D);
+    opacity: 100%;
+}
+.bouton4{
+    color: #FFFFFF;
+    text-align: center;
+    position: center;
+    width: 180px;
+    height: 40px;
+    border: none;
+    margin: 0 auto;
+    font-weight: 400;
+    background-image: linear-gradient(#C4C4C4, var(--rouge));
+    opacity: 60%;
+}
+.bouton4:hover{
+    background-image: linear-gradient(#C4C4C4, var(--rouge));
+    opacity: 100%;
+}
+
+.buton{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.contenu8{
+    height: 590px;
+    background-color: black; 
+}
+.part8{
+    width: 90%;
+    height: 500px;
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
+    margin: auto;
+    margin-bottom: 50px;
+
+  
+}
+.crochet{
+    padding-left: 100px; 
+    padding-top: 100px;
+}
+.crochet img{
+    width: 8%;
+    height: 50px;
+}
+.crochet1 img{
+    width: 8%;
+    height: 50px;
+}
+.crochet1 {
+   justify-content: end!important;
+   text-align: end;
+   align-items:end!important;
+   padding-right: 100px;
+}
+.texte{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.texte p{
+    color: #FFFFFF;
+    opacity: 50%;
+    margin-top: 20px;
+}
+.texte span{
+    color: #317fc7;
+   
+}
+.footer2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    
+}
+.prime p{
+    font-size: 8px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+.prime1 img{
+    margin-right: 10px;
+    color: #FFFFFF !important;
+}
+.prime1 img :hover{
+    color: var(--jaune) !important  ;
+}
+i{
+    margin-right: 10px; 
+}
+i:hover{
+    color: var(--jaune) !important;
+}
+
+
+
+/*nouveau*/
+.changement{
+    animation-name: change;
+    animation-duration: 7s;
+}
+@keyframes change {
+        0%{
+            transform: translate(-50px);
+            opacity:0%
+        }
+        100%{
+            transform: translate(0px);
+            opacity: 100%;
+        }
+}
+
+.zoom{
+    animation-name: agrandir;
+    animation-duration: 12s;
+}
+
+@keyframes agrandir {
+    0%{
+        transform: scale(0.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.changement1{
+    animation-name: change;
+    animation-duration: 9s;
+}
+@keyframes change {
+        0%{
+            transform: translate(-50px);
+            opacity:0%
+        }
+        100%{
+            transform: translate(0px);
+            opacity: 100%;
+        }
+}
+.video{
+    animation-name: agrandir;
+    animation-duration: 12s;
+}
+
+@keyframes agrandir {
+    0%{
+        transform: scale(0.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
